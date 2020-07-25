@@ -1,0 +1,256 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="">
+    <ul class="d-flex flex-wrap justify-content-center">
+        <li>
+            <div class="jetcoin" style="background-color: #33a6d7;"><p>hello</p></div>
+        </li>
+        <li>
+            <div class="jetcoin" style="background-color: #fcca95;"><p>hello</p></div>
+        </li>
+        <li>
+            <div class="jetcoin" style="background-color: #b7a5cd;"><p>hello</p></div>
+        </li>
+        <li>
+            <div class="jetcoin" style="background-color: #cbcbcb;"><p>hello</p></div>
+        </li>
+        <li>
+            <div class="jetcoin" style="background-color: #33a6d7;"><p>hello</p></div>
+        </li>
+        <li>
+            <div class="jetcoin" style="background-color: #fcca95;"><p>hello</p></div>
+        </li>
+        <li>
+            <div class="jetcoin" style="background-color: #b7a5cd;"><p>hello</p></div>
+        </li>
+        <li>
+            <div class="jetcoin" style="background-color: #cbcbcb;"><p>hello</p></div>
+        </li>
+    </ul>
+</div>
+<div style="transform:perspective(700px) translateX(-50px) rotateX(6.54deg) rotateY(6.54deg);" class="MyClass"></div>
+<h1 class="animate__animated animate__backInLeft">An animated element</h1>
+<section style="height:200px; background-color:purple" class="animate__animated animate__backInLeft">
+</section>
+<section style="height:200px; background-color:orange" class="animate__animated animate__bounce">
+</section>
+<section style="height:200px; background-color:lightblue" class="animate__animated animate__backInUp">
+    <div class="wow">Content to Reveal Here</div>
+</section>
+<section style="height:200px; background-color:orange" class="animate__animated animate__bounceInDown">
+</section>
+<section style="height:200px; background-color:purple" class="animate__animated animate__backInLeft">
+</section>
+<section style="height:200px; background-color:orange" class="animate__animated animate__backInRight">
+</section>
+<section style="height:200px; background-color:purple" class="animate__animated animate__backInLeft">
+</section>
+<section style="height:200px; background-color:orange" class="animate__animated animate__backInRight">
+</section>
+
+<section class="section section--code">
+    <div class="container">
+        <h2 class="section-title">Fade</h2>
+        <div class="code code--small code--left MyClass" data-aos="fade-up" data-aos-duration="3000">
+
+        </div>
+        <div class="code code--small code--right MyClass" data-aos="fade-down">
+
+        </div>
+        <div class="code code--small code--left MyClass" data-aos="fade-right">
+            <h4>Fade right</h4>
+        </div>
+        <div class="code code--small code--right MyClass" data-aos="fade-left">
+
+        </div>
+        <div class="code code--small code--left MyClass" data-aos="fade-up-right">
+
+        </div>
+        <div class="code code--small code--right MyClass" data-aos="fade-up-left">
+
+        </div>
+        <div class="code code--small code--left MyClass" data-aos="fade-down-right">
+
+        </div>
+        <div class="code code--small code--right MyClass" data-aos="fade-down-left">
+
+        </div>
+    </div>
+</section>
+<section class="section section--code">
+    <div class="container">
+        <h2 class="section-title">Flip</h2>
+        <div class="code code--small code--left MyClass" data-aos="flip-left">
+
+        </div>
+        <div class="code code--small code--right MyClass" data-aos="flip-right">
+
+        </div>
+        <div class="code code--small code--left MyClass" data-aos="flip-up">
+
+        </div>
+        <div class="code code--small code--right MyClass" data-aos="flip-down">
+
+        </div>
+    </div>
+</section>
+
+<section class="section section--code">
+    <div class="container">
+        <h2 class="section-title">Zoom</h2>
+        <div class="code code--small code--left MyClass" data-aos="zoom-in">
+
+        </div>
+        <div class="code code--small code--right MyClass" data-aos="zoom-in-up">
+
+        </div>
+        <div class="code code--small code--left MyClass" data-aos="zoom-in-down">
+
+        </div>
+        <div class="code code--small code--right MyClass" data-aos="zoom-in-left">
+
+        </div>
+        <div class="code code--small code--left MyClass" data-aos="zoom-in-right">
+
+        </div>
+
+        <div class="code code--small code--right MyClass" data-aos="zoom-out">
+
+        </div>
+        <div class="code code--small code--left MyClass" data-aos="zoom-out-up">
+
+        </div>
+        <div class="code code--small code--right MyClass" data-aos="zoom-out-down">
+
+        </div>
+        <div class="code code--small code--left MyClass" data-aos="zoom-out-right">
+
+        </div>
+        <div class="code code--small code--right MyClass" data-aos="zoom-out-left">
+
+        </div>
+    </div>
+</section>
+
+<section class="section section--code">
+    <div class="container">
+        <h2 class="section-title">Different settings examples</h2>
+        <div class="code code--left MyClass" data-aos="fade-up" data-aos-duration="3000">
+            Fade up
+        </div>
+        <div class="code code--right MyClass" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            fade down
+        </div>
+        <div id="example-anchor" class="code code--left MyClass" data-aos="fade-right" data-aos-offset="0" data-aos-duration="1500"
+             data-aos-easing="ease-in-sine" data-aos-anchor-placement="top-center">
+            Fade Right
+        </div>
+        <div class="code code--right MyClass" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+             data-aos-duration="500">
+
+        </div>
+        <div class="code code--left MyClass" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+             data-aos-offset="0">
+
+        </div>
+        <div class="code code--right MyClass" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+
+        </div>
+    </div>
+</section>
+
+<section class="section section--code">
+    <div class="container">
+        <h2 class="section-title">Anchor placement</h2>
+
+        <div class="code code--wider code--left MyClass" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+
+        </div>
+        <div class="code code--wider code--right MyClass" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+
+        </div>
+        <div class="code code--wider code--left MyClass" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+
+        </div>
+
+        <div class="code code--wider code--right MyClass" data-aos="fade-up" data-aos-anchor-placement="top-center">
+
+        </div>
+        <div class="code code--wider code--left MyClass" data-aos="fade-up" data-aos-anchor-placement="center-center">
+
+        </div>
+        <div class="code code--wider code--right MyClass" data-aos="fade-up" data-aos-anchor-placement="bottom-center">
+
+        </div>
+
+    </div>
+</section>
+
+
+
+@section Head{
+    @*<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />*@
+    <link href="~/lib/animate.css/animate.css" rel="stylesheet" />
+    <link href="~/lib/aos/aos.css" rel="stylesheet" />
+    <style>
+        .MyClass {
+            height: 300px;
+            width: 300px;
+            background-color: violet;
+            border: solid;
+            border-color: red;
+        }
+
+        .jetcoin {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            text-align: center;
+            padding: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .jetcoin p {
+                font-size: 18px;
+                color: #fff;
+                font-family: 'fira_sansregular';
+                line-height: 26px;
+            }
+
+        .justify-content-center {
+            -webkit-box-pack: center !important;
+            -ms-flex-pack: center !important;
+            justify-content: center !important;
+        }
+        /*.flex-wrap {
+            -ms-flex-wrap: wrap !important;
+            flex-wrap: wrap !important;
+        }
+        .d-flex {
+            display: -webkit-box !important;
+            display: -ms-flexbox !important;
+            display: flex !important;
+        }*/
+        ul, li, label, a, h1, h2, h3, h4, h5, h6, p, figure {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+}
+@section Scripts{
+
+    <script src="~/lib/aos/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
+}
